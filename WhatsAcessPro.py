@@ -14,7 +14,7 @@ def janelaMain():
         quantidade = int(eQuantidade.get())
 
         os.system("cls")
-        input("Aperte qualquer tecla quando o QR Code for verficado")
+        input("Aperte ENTER quando o QR Code for verificado")
 
         user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(nome))
         user.click()
